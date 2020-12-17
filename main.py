@@ -13,6 +13,6 @@ def beCheerful(name='', repeat=2):  # set defaults when declaring the parameters
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-  randInt(199)
+  randInt(1299)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
