@@ -2,7 +2,6 @@
 import random
 def randInt (min=0,max=100):
     if min>max:
-
         return 'Error: Verificar valor mínimo y máximo.'
     elif max<0:
         return 'Error: El valor máximo no puede ser menor a cero (0).'
@@ -10,12 +9,6 @@ def randInt (min=0,max=100):
         num=random.random()*(max-min)+min
         num=round(num)
         return num
-
-
-def beCheerful(name='', repeat=2):  # set defaults when declaring the parameters
-    print(f"good morning {name}\n" * repeat)
-
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
